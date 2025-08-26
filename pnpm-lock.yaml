@@ -5,9 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 patchedDependencies:
-  devalue@5.1.1:
-    hash: nvl2t35lrhsgbxgtspzw4w55h4
-    path: patches/devalue@5.1.1.patch
+  devalue@5.3.2:
+    hash: srqex2kkl42z7ua5mi2nqfq2lu
+    path: patches/devalue@5.3.2.patch
 
 devDependencies:
   '@vitest/coverage-v8':
@@ -20,8 +20,8 @@ devDependencies:
     specifier: ^6.6.0
     version: 6.6.0(typescript@5.9.2)
   devalue:
-    specifier: ^5.1.1
-    version: 5.1.1(patch_hash=nvl2t35lrhsgbxgtspzw4w55h4)
+    specifier: ^5.3.2
+    version: 5.3.2(patch_hash=srqex2kkl42z7ua5mi2nqfq2lu)
   happy-dom:
     specifier: ^18.0.1
     version: 18.0.1
@@ -1098,8 +1098,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /devalue@5.1.1(patch_hash=nvl2t35lrhsgbxgtspzw4w55h4):
-    resolution: {integrity: sha512-maua5KUiapvEwiEAe+XnlZ3Rh0GD+qI1J/nb9vrJc3muPXvcF/8gXYTWF76+5DAqHyDUtOIImEuo0YKE9mshVw==}
+  /devalue@5.3.2(patch_hash=srqex2kkl42z7ua5mi2nqfq2lu):
+    resolution: {integrity: sha512-UDsjUbpQn9kvm68slnrs+mfxwFkIflOhkanmyabZ8zOYk8SMEIbJ3TK+88g70hSIeytu4y18f0z/hYHMTrXIWw==}
     dev: true
     patched: true
 
