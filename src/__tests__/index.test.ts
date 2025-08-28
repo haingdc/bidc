@@ -117,7 +117,7 @@ describe('encode/decode', () => {
 
     expect(chunks).toMatchInlineSnapshot(`
       [
-        "r:[{"array":1,"date":9,"map":10,"set":15,"regex":17,"bigint":18,"buffer":19,"uint8":20},[2,3,4,6],1,"two",{"three":5},3,[7,8],4,5,["Date","2024-01-01T00:00:00.000Z"],["Map",11,12,13,14],"key","value","num",42,["Set",2,16,5],2,["RegExp","test.*pattern","gi"],["BigInt","12345678901234567890"],["ArrayBuffer","AAAAAAAAAAA="],["Uint8Array","AQIDBA=="]]
+        "r:[{"array":1,"date":9,"map":10,"set":15,"regex":17,"bigint":18,"buffer":19,"uint8":20},[2,3,4,6],1,"two",{"three":5},3,[7,8],4,5,["Date","2024-01-01T00:00:00.000Z"],["Map",11,12,13,14],"key","value","num",42,["Set",2,16,5],2,["RegExp","test.*pattern","gi"],["BigInt","12345678901234567890"],["ArrayBuffer","AAAAAAAAAAA="],["Uint8Array",21],["ArrayBuffer","AQIDBA=="]]
       ",
       ]
     `)
