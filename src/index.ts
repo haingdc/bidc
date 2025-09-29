@@ -640,13 +640,13 @@ function createChannel(
               typeof decoded.$$type === 'string' &&
               decoded.$$type.startsWith('bidc-res:')
             ) {
-              const resposneMessageId = decoded.$$type.slice(9)
+              const responseMessageId = decoded.$$type.slice(9)
               const response = decoded.response
-              const responseResolver = responses.get(resposneMessageId)
+              const responseResolver = responses.get(responseMessageId)
               if (responseResolver) {
                 // Resolve the response promise with the decoded data
                 responseResolver[0](response)
-                responses.delete(resposneMessageId)
+                responses.delete(responseMessageId)
               }
             } else {
               // Call the callback with the ID and decoded data
